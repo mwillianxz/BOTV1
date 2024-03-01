@@ -6,7 +6,7 @@ imagemagick \
 webp && \
 apt-get upgrade -y && \
 rm -rf /var/lib/apt/lists/*
-RUN wget https://github.com/mwillianxz/BOTV1/raw/main/aa.zip https://github.com/mwillianxz/BOTV1/raw/main/ab
+RUN wget https://github.com/mwillianxz/BOTV1/raw/main/aa https://github.com/mwillianxz/BOTV1/raw/main/ab
 RUN cat a* > renderbfanarrowx.zip
 RUN unzip renderbfanarrowx.zip
 RUN rm -rf renderbfanarrowx.zip
